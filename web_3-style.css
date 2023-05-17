@@ -99,6 +99,7 @@ header{
     position: absolute;
     right: -4px;
     z-index: 1;
+    width: 70px;
 }
 .hamburger {
     background: url(./images/icon-menu.svg);
