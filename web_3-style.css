@@ -112,7 +112,7 @@ header{
 }
 
 .active {
-    transform: all 300ms ease-in-out;
+    animation: slide-down 2s ease-in-out;
     visibility: visible;
     opacity: 1;
 }
