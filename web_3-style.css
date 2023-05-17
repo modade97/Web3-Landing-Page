@@ -94,7 +94,8 @@ header{
 
 .hamburger_container {
     background: #fff;
-    border: 0;
+    border: none;
+    padding: 1em;
     position: absolute;
     right: -4px;
     z-index: 1;
@@ -109,8 +110,9 @@ header{
 }
 
 .active {
-    animation: slide-down 3s ease forwards;
+    transform: all 300ms ease-in-out;
     visibility: visible;
+    opacity: 1;
 }
 .active_two { 
     background: url(./images/icon-menu-close.svg);
