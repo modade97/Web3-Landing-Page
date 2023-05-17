@@ -95,10 +95,8 @@ header{
 .hamburger_container {
     background: #fff;
     border: none;
-    padding: 2em;
     position: absolute;
     right: -4px;
-    z-index: 1;
     width: 70px;
 }
 .hamburger {
