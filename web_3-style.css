@@ -95,7 +95,7 @@ header{
 .hamburger_container {
     background: #fff;
     border: none;
-    padding: 1em;
+    padding: 2em;
     position: absolute;
     right: -4px;
     z-index: 1;
