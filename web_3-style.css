@@ -107,6 +107,8 @@ header{
     width: 43px;
     height: 20px;
     cursor: pointer;
+    position: relative;
+    z-index: 1;
 }
 
 .active {
