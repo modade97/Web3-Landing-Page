@@ -20,7 +20,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 15px;
+    font-size: 1p6x;
 }
 
 .container {
@@ -233,66 +233,65 @@ h1 {
     color: var(--soft_orange);
 }
 
-.section2_containers {
-    /* margin: 1em 0; */
-}
-
-.row {
+.section_two {
     display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* border: 1px solid red; */
 }
 
 .section2_containers {
-    width: 100%;
-    max-width: 400px;
+    display: flex;
+    gap: 1em;
+    /* border: 1px solid red; */
 }
+
+/* .section-two_content_two {
+    
+} */
+
+.section_two img{
+    width: 100px;
+}
+
+.section-two_content_two p, h4{
+    margin: 0;
+    text-align: left;
+}
+
+.section-two_content_two h4{
+    margin: .5em 0;
+}
+
 .section-two-h4-link {
     text-decoration: none;
-    color: inherit;
+    color: var(--very_dark_blue);
 }
 .section-two-h4-link:hover{
     color: var(--soft_red);
     transition: color .2ms ease-in;
 }
 
-.section-two_content_two {
-    display: flex;
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
-    flex-direction: column;
-    margin-left: 2em;
-}
 
-.section2_containers:nth-child(2) {
-    margin: .5em 0;
-}
-.imgg {
-    max-width: 6rem;
-    /* min-width: 90px; */
-}
+
 .number {
     color: var(--grayish_blue);
     font-size: 2.7rem;
     font-weight: bold;
-    margin: 0;
-    margin-bottom: -10px;
-    padding: 0;
 }
 
-.wordings {
+/* .wordings {
     margin-top: -.25px;
-}
+} */
 
 @media (min-width: 720px) {
     .section_two {
         display: grid;
         gap: 1.5em;
         grid-template-columns: repeat(2, 1fr);
-        margin-top: -1.5em;
+        /* margin-top: -1.5em; */
     }
 
-    .section2_containers:last-child {
-        margin-top: -1.5em;
-    }
 }
 @media (min-width: 900px) {
     .container {
@@ -312,7 +311,7 @@ h1 {
     }
 
     .nav-menu p{
-        margin:0 ;
+        margin: 0;
         margin-left: 2.5em;
     }
 
@@ -344,19 +343,11 @@ h1 {
     }
 
     .section_two {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5em;
-        margin-top: 1.5em;
+        margin: 2.5em auto;
     }
-
-    .section2_containers:last-child {
-        margin-top: 1em;
-    }
-
-    .section2_containers:nth-child(2) img {
-        width: 95%;
-    } 
-
 
     .section_one {
         width: 100%;
